@@ -2,21 +2,25 @@
 <html lang="en">
 
 <head>
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>tradex</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/all.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
+
 </head>
 
 <body>
-  <header class="header-top">
+  <header class="header-top " id="tob">
     <div class=" bg-primary py-1 d-flex text-white">
       <div class="container">
         <div class="row justify-content-between">
@@ -176,7 +180,7 @@
           </li>
 
 
-          <li class="nav-item"><a href="#Contact" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="/Contact.html" class="nav-link">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -198,11 +202,11 @@
               <p>Some representative placeholder content for the first slide.</p>
             </div> -->
       </div>
-      <div class="carousel-item  position-relative" data-bs-interval="5000">
+      <div class="carousel-item  position-relative" data-bs-interval="2000">
         <div class="bg-overlay"></div>
         <img src="/images/slider1.jpg" class="d-block w-100 " alt="...">
         <div class="carousel-caption d-none d-md-block text-white  h-100 pt-5">
-          <h1> what you do today for peoples 3</h1>
+          <h1> what you do today for peoples 1</h1>
           <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Atque nulla laborum fugit
             expedita labore quibusdam eos.</p>
           <button type="button" class="btn btn-primary px-5 py-2 me-5">Get Start Now</button>
@@ -213,7 +217,7 @@
         <div class="bg-overlay"></div>
         <img src="/images/slider2.jpg" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block text-white  h-100 pt-5">
-          <h1> what you do today for peoples 3</h1>
+          <h1> what you do today for peoples 2</h1>
           <p class="mt-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>Atque nulla laborum fugit
             expedita labore quibusdam eos.</p>
           <button type="button" class="btn btn-primary px-5 py-2 me-5">Get Start Now</button>
@@ -455,153 +459,37 @@
       </div>
   </section>
   <section class="our-Work py=5">
-    <div class="container mt-3">
+    <div class="container w-75 mt-3">
       <div class="text-top  py-5">
         <span>
           <h1>Our Work</h1>
         </span>
         <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor,
-           nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</h5>
+          nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</h5>
       </div>
       <!-- Nav tabs -->
       <div class="our-services-nav">
-      <ul class="nav nav-pills justify-content-center">
-        <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#All">All </a> <li class="px-3 fs-4"><span>/</span></li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Creative-Design">Creative Design</a></a> <li class="px-3 fs-4"><span>/</span></li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Developement">Developement</a></a> <li class="px-3 fs-4"><span>/</span></li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#Graphic-Design">Graphic Design</a>
-        </li>
-      </ul>
+        <ul class="nav nav-pills justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#All">All </a>
+          <li class="px-3 fs-4"><span>/</span></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#Creative-Design">Creative Design</a></a>
+          <li class="px-3 fs-4"><span>/</span></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#Developement">Developement</a></a>
+          <li class="px-3 fs-4"><span>/</span></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#Graphic-Design">Graphic Design</a>
+          </li>
+        </ul>
       </div>
       <!-- Tab panes -->
       <div class="tab-content my-5">
         <div id="All" class="container tab-pane active"><br>
-            <div class="row">
-
-              <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-                <div class="main-container ">
-                  <div class=" container-icons ">
-                    <img src="/images/11/port2-370x390.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                      <div class="text-style ">
-                        <p class="fs-6">Developement, Graphic Design</p>
-                    <h5>Project Title01</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-                <div class="main-container ">
-                  <div class=" container-icons ">
-                    <img src="/images/11/computer-472016_1920-360x380.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                      <div class="text-style">
-                        <p class="fs-6">Developement, Graphic Design</p>
-                    <h5>Project Title01</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-                <div class="main-container ">
-                  <div class=" container-icons ">
-                    <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                      <div class="text-style">
-                        <p class="fs-6">Developement, Graphic Design</p>
-                    <h5>Project Title01</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-                <div class="main-container ">
-                  <div class=" container-icons ">
-                    <img src="/images/11/port7-370x390.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                      <div class="text-style">
-                        <p class="fs-6">Developement, Graphic Design</p>
-                    <h5>Project Title01</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-                <div class="main-container ">
-                  <div class=" container-icons ">
-                    <img src="/images/11/suit-869380_1920-360x380.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                      <div class="text-style">
-                        <p class="fs-6">Developement, Graphic Design</p>
-                    <h5>Project Title01</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-                <div class="main-container ">
-                  <div class=" container-icons ">
-                    <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
-                    <div class="overlay">
-                      <div class="text-style">
-                        <p class="fs-6">Developement, Graphic Design</p>
-                    <h5>Project Title01</h5>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          
-
-        </div>
-        <div id="Creative-Design" class="container tab-pane fade"><br>
-          <div class="row">
-
-            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-              <div class="main-container ">
-                <div class=" container-icons ">
-                  <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
-                  <div class="overlay">
-                    <div class="text-style">
-                      <p class="fs-6">Developement, Graphic Design</p>
-                  <h5>Project Title01</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-              <div class="main-container ">
-                <div class=" container-icons ">
-                  <img src="/images/11/port7-370x390.jpg" alt="Avatar" class="image">
-                  <div class="overlay">
-                    <div class="text-style">
-                      <p class="fs-6">Developement, Graphic Design</p>
-                  <h5>Project Title01</h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          
-        </div>
-        <div id="Developement" class="container tab-pane fade"><br>
           <div class="row">
 
             <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
@@ -611,7 +499,7 @@
                   <div class="overlay">
                     <div class="text-style ">
                       <p class="fs-6">Developement, Graphic Design</p>
-                  <h5>Project Title01</h5>
+                      <h5>Project Title01</h5>
                     </div>
                   </div>
                 </div>
@@ -624,7 +512,7 @@
                   <div class="overlay">
                     <div class="text-style">
                       <p class="fs-6">Developement, Graphic Design</p>
-                  <h5>Project Title01</h5>
+                      <h5>Project Title01</h5>
                     </div>
                   </div>
                 </div>
@@ -637,7 +525,20 @@
                   <div class="overlay">
                     <div class="text-style">
                       <p class="fs-6">Developement, Graphic Design</p>
-                  <h5>Project Title01</h5>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/port7-370x390.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
                     </div>
                   </div>
                 </div>
@@ -650,78 +551,184 @@
                   <div class="overlay">
                     <div class="text-style">
                       <p class="fs-6">Developement, Graphic Design</p>
-                  <h5>Project Title01</h5>
+                      <h5>Project Title01</h5>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
-        
-      </div>
-      <div id="Graphic-Design" class="container tab-pane fade"><br>
-        <div class="row">
 
-          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-            <div class="main-container ">
-              <div class=" container-icons ">
-                <img src="/images/11/port2-370x390.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text-style ">
-                    <p class="fs-6">Developement, Graphic Design</p>
-                <h5>Project Title01</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-            <div class="main-container ">
-              <div class=" container-icons ">
-                <img src="/images/11/computer-472016_1920-360x380.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text-style">
-                    <p class="fs-6">Developement, Graphic Design</p>
-                <h5>Project Title01</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-            <div class="main-container ">
-              <div class=" container-icons ">
-                <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text-style">
-                    <p class="fs-6">Developement, Graphic Design</p>
-                <h5>Project Title01</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-            <div class="main-container ">
-              <div class=" container-icons ">
-                <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
-                <div class="overlay">
-                  <div class="text-style">
-                    <p class="fs-6">Developement, Graphic Design</p>
-                <h5>Project Title01</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-          
 
         </div>
+        <div id="Creative-Design" class="container tab-pane fade"><br>
+          <div class="row">
+
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/port7-370x390.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div id="Developement" class="container tab-pane fade"><br>
+          <div class="row">
+
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/port2-370x390.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style ">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/computer-472016_1920-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/suit-869380_1920-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+        <div id="Graphic-Design" class="container tab-pane fade"><br>
+          <div class="row">
+
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/port2-370x390.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style ">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/computer-472016_1920-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+              <div class="main-container ">
+                <div class=" container-icons ">
+                  <img src="/images/11/office-1209640_1920-1-360x380.jpg" alt="Avatar" class="image">
+                  <div class="overlay">
+                    <div class="text-style">
+                      <p class="fs-6">Developement, Graphic Design</p>
+                      <h5>Project Title01</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </div>
+        </div>
       </div>
-    </div>
   </section>
   <div class="e-commerce mt-3">
     <img src="/images/2019/ecommerce-cover-2.jpg" alt="">
@@ -729,25 +736,26 @@
 
   <section class="our-Creative-Team py-3">
     <div class="container mt-3">
-    <div class="text-top  py-5">
-      <span>
-        <h1>Our Pricing</h1>
-      </span>
-      <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor,
-         nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</h5>
-    </div>
-    <div class="custom-container  my-5">
-      <div class="row">
+      <div class="text-top  py-5">
+        <span>
+          <h1>Our Pricing</h1>
+        </span>
+        <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla tempor,
+          nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</h5>
+      </div>
+      <div class="custom-container  my-5">
+        <div class="row">
 
-        <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-          <div class="main-img">
+          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <div class="main-img">
               <img src="/images/11/team1.png" alt="Avatar" class="image">
               <div class="border-bo"> </div>
               <div class="overlay">
                 <div class="text px-2 py-3">
                   <h5>Jen Whyan</h5>
                   <h6>Founder</h6>
-                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                    iaculis, ipsum. Sed aliquam ultrices mauris....</p>
                   <div class="socilMedia-container__icon  ">
                     <a href="" id="social-media-icon">
                       <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
@@ -765,19 +773,20 @@
                       <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
                     </a>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-          <div class="main-img">
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <div class="main-img">
               <img src="/images/11/team2.png" alt="Avatar" class="image">
               <div class="border-bo"> </div>
               <div class="overlay">
                 <div class="text px-2 py-3">
                   <h5>Mical Peterson</h5>
                   <h6>Founder</h6>
-                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                    iaculis, ipsum. Sed aliquam ultrices mauris....</p>
                   <div class="socilMedia-container__icon  ">
                     <a href="" id="social-media-icon">
                       <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
@@ -795,19 +804,20 @@
                       <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
                     </a>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-          <div class="main-img">
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <div class="main-img">
               <img src="/images/11/team3.png" alt="Avatar" class="image">
               <div class="border-bo"> </div>
               <div class="overlay">
                 <div class="text px-2 py-3">
                   <h5>Sara Corner</h5>
                   <h6>Founder</h6>
-                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                    iaculis, ipsum. Sed aliquam ultrices mauris....</p>
                   <div class="socilMedia-container__icon  ">
                     <a href="" id="social-media-icon">
                       <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
@@ -825,19 +835,20 @@
                       <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
                     </a>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-          <div class="main-img">
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <div class="main-img">
               <img src="/images/11/team4.png" alt="Avatar" class="image">
               <div class="border-bo"> </div>
               <div class="overlay">
                 <div class="text px-2 py-3">
                   <h5>Milly Jackson</h5>
                   <h6>Founder</h6>
-                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                    iaculis, ipsum. Sed aliquam ultrices mauris....</p>
                   <div class="socilMedia-container__icon  ">
                     <a href="" id="social-media-icon">
                       <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
@@ -855,19 +866,20 @@
                       <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
                     </a>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-          <div class="main-img">
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <div class="main-img">
               <img src="/images/11/team5.png" alt="Avatar" class="image">
               <div class="border-bo"> </div>
               <div class="overlay">
                 <div class="text px-2 py-3">
                   <h5>Clark Jackson</h5>
                   <h6>Founder</h6>
-                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <p class="">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                    iaculis, ipsum. Sed aliquam ultrices mauris....</p>
                   <div class="socilMedia-container__icon  ">
                     <a href="" id="social-media-icon">
                       <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
@@ -885,19 +897,20 @@
                       <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
                     </a>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
-          <div class="main-img">
+          </div>
+          <div class="col-lg-4 col-sm-6 col-xs-12 mt-4">
+            <div class="main-img">
               <img src="/images/11/team6.png" alt="Avatar" class="image">
               <div class="border-bo"> </div>
               <div class="overlay">
                 <div class="text px-2 py-3">
                   <h5>John Jojo</h5>
                   <h6>Founder</h6>
-                  <p class="fs-6">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet iaculis, ipsum. Sed aliquam ultrices mauris....</p>
+                  <p class="fs-6">Nam pretium turpis et arcu. Duis arcu tortor, suscipit eget, imperdiet nec, imperdiet
+                    iaculis, ipsum. Sed aliquam ultrices mauris....</p>
                   <div class="socilMedia-container__icon  ">
                     <a href="" id="social-media-icon">
                       <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
@@ -915,233 +928,624 @@
                       <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
                     </a>
                   </div>
-                </div>  
+                </div>
               </div>
             </div>
+          </div>
+
         </div>
-        
-    </div>
-  </div>
+      </div>
 
   </section>
   <section class="our-Pricing">
-  <div class="container mt-3">
-    <div class=" text-top  py-5">
-      <span>
-        <h1>Our Pricing</h1>
-      </span>
-      <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin consequat.</h5>
-    </div> 
+    <div class="container mt-3">
+      <div class=" text-top  py-5">
+        <span>
+          <h1>Our Pricing</h1>
+        </span>
+        <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin
+          consequat.</h5>
+      </div>
       <div class="our-Pricing-tabs ">
         <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
           <li class="nav-item" role="presentation">
-            <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">per / Month</button>
+            <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home"
+              type="button" role="tab" aria-controls="pills-home" aria-selected="true">per / Month</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">per / Year</button>
-          </li>  
+            <button class="nav-link " id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+              type="button" role="tab" aria-controls="pills-profile" aria-selected="false">per / Year</button>
+          </li>
         </ul>
       </div>
-        <div class="tab-content" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div class="custom-container  my-5">
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+          <div class="custom-container  my-5">
             <div class="row">
               <div class="col-lg-4 col-sm-6 col-xs-12 mt-4 px-0">
                 <ul class="price">
                   <h2>Personal</h2>
                   <H5></H5>
-               <li class="grey">From <span>$ 399</span></li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
-                <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p> 
-              </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  120 Support Tike</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-              </li>
-               <button type="button" class="btn btn-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
-             </ul>
-                
+                  <li class="grey">From <span>$ 399</span></li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 120 Support Tike</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <button type="button" class="btn btn-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
+                </ul>
+
               </div>
               <div class="col-lg-4 col-sm-6 col-xs-12 mt-4 px-0">
                 <ul class="price price-box-shadow">
                   <h2>Business</h2>
                   <H5></H5>
-               <li class="grey">From <span>$ 399</span></li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
-                <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p> 
-              </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  120 Support Tike</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-              </li>
-               <button type="button" class="btn btn btn-outline-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
-             </ul>
-                
+                  <li class="grey">From <span>$ 399</span></li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 120 Support Tike</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <button type="button" class="btn btn btn-outline-primary mt-4 px-lg-5 px-md-1">GET STARTED
+                    NOW</button>
+                </ul>
+
               </div>
               <div class="col-lg-4 col-sm-6 col-xs-12 mt-4 px-0">
                 <ul class="price">
                   <h2>Ultimate</h2>
                   <H5></H5>
-               <li class="grey">From <span>$ 399</span></li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
-                <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p> 
-              </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  120 Support Tike</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-              </li>
-               <button type="button" class="btn btn-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
-             </ul>
-                
+                  <li class="grey">From <span>$ 399</span></li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 120 Support Tike</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <button type="button" class="btn btn-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
+                </ul>
+
               </div>
             </div>
           </div>
         </div>
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
           <div class="custom-container  my-5">
             <div class="row">
-        
+
               <div class="col-lg-4 col-sm-6 col-xs-12 mt-4 px-0">
                 <ul class="price ">
                   <h2>Business</h2>
                   <H5></H5>
-               <li class="grey">From <span>$ 399</span></li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
-                <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p> 
-              </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  120 Support Tike</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-              </li>
-               <button type="button" class="btn btn btn-outline-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
-             </ul>
-                
+                  <li class="grey">From <span>$ 399</span></li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 120 Support Tike</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <button type="button" class="btn btn btn-outline-primary mt-4 px-lg-5 px-md-1">GET STARTED
+                    NOW</button>
+                </ul>
+
               </div>
               <div class="col-lg-4 col-sm-6 col-xs-12 mt-4 px-0">
                 <ul class="price">
                   <h2>Ultimate</h2>
                   <H5></H5>
-               <li class="grey">From <span>$ 399</span></li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
-                <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p> 
-              </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  120 Support Tike</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-              </li>
-               <button type="button" class="btn btn-primary mt-4 px-5">GET STARTED NOW</button>
-             </ul>
-                
+                  <li class="grey">From <span>$ 399</span></li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 120 Support Tike</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <button type="button" class="btn btn-primary mt-4 px-5">GET STARTED NOW</button>
+                </ul>
+
               </div>
               <div class="col-lg-4 col-sm-6 col-xs-12 mt-4 px-0">
                 <ul class="price price-box-shadow">
                   <h2>Personal</h2>
                   <H5></H5>
-               <li class="grey">From <span>$ 399</span></li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
-                <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p> 
-              </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-                </li>
-               <li>
-                 <div class="fs-4"><i class="fa fa-check text-primary"></i>  120 Support Tike</div>
-                 <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
-              </li>
-               <button type="button" class="btn btn-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
-             </ul>
-                
+                  <li class="grey">From <span>$ 399</span></li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 05 Wordpress Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 03 PSD Pack</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <li>
+                    <div class="fs-4"><i class="fa fa-check text-primary"></i> 120 Support Tike</div>
+                    <p class="fs-6">Lorem ipsum dolor sit amet, consectetuer Aenean commodo ligula</p>
+                  </li>
+                  <button type="button" class="btn btn-primary mt-4 px-lg-5 px-md-1">GET STARTED NOW</button>
+                </ul>
+
               </div>
             </div>
           </div>
         </div>
-        </div>
       </div>
+    </div>
 
-  </div>
+    </div>
 
 
 
   </section>
   <section class="Subscribe-now py-5 ">
     <div class="container w-75">
-      <div class="row " >
+      <div class="row ">
         <div class="col-lg-6 col-sm-12 col-12">
-        <div class="text text-white ">
-          <div class="py-4"> 
-            <i class="far fa-envelope fs-1 me-3"></i>
-            <span class="fs-1">  Subscribe now for news   </span>
+          <div class="text text-white ">
+            <div class="py-4">
+              <i class="far fa-envelope fs-1 me-3"></i>
+              <span class="fs-1"> Subscribe now for news </span>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 col-sm-12 col-12 py-4">
+          <form class="row ">
+            <div class="col-sm-12 col-md-8 mt-3">
+              <input type="text" class="form-control-plaintext bg-white" id="staticEmail2"
+                placeholder=" input your mail">
+            </div>
+            <div class="col-sm-12 col-md-4">
+              <button type="submit" class="btn btn-primary px-5 mt-3">Subscribe</button>
+            </div>
+          </form>
+        </div>
+      </div>
+  </section>
+  <section class="Testimonial my-5">
+    <div class="container mt-3">
+      <div class=" text-top  py-5">
+        <span>
+          <h1>Testimonial</h1>
+        </span>
+        <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Nulla tempor, nisl sed bibendum pretium, diam nisi mattis lectus, eu varius lorem mauris posuere dui. Proin
+          consequat.</h5>
+      </div>
+      <div class="container">
+        <div class="owl-carousel">
+          <div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/11/testi-avtar-1.jpg" class="" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">gargi jane</h4>
+                    <h5 class="card-text fs-6">developer </h5>
+                    <p class="card-text">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                      justo,ligula. Cum eget dolor Aenean rhoncus ut, fringilla vel, aliquet nec, imperdiet a, venenatis
+                      vitae, justo. Nullam dictum felis eu pede </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/11/testi-avtar-2.jpg" class="" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">gargi jane</h4>
+                    <h5 class="card-text fs-6">developer </h5>
+                    <p class="card-text">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                      justo,ligula. Cum eget dolor Aenean rhoncus ut, vel, aliquet nec, imperdiet a, venenatis vitae,
+                      justo. Nullam dictum felis eu pede </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/11/testi-avtar-3.jpg" class="" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">gargi jane</h4>
+                    <h5 class="card-text fs-6">developer </h5>
+                    <p class="card-text">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                      justo,ligula. Cum eget dolor Aenean rhoncus ut, fringilla vel, aliquet nec, imperdiet a, venenatis
+                      vitae, justo. Nullam dictum felis eu pede </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/11/testi-avtar-4.jpg" class="" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">gargi jane</h4>
+                    <h5 class="card-text fs-6">developer </h5>
+                    <p class="card-text">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                      justo,ligula. Cum eget dolor Aenean rhoncus ut, fringilla vel, aliquet nec, imperdiet a, venenatis
+                      vitae, justo. Nullam dictum felis eu pede </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="/images/11/testi-avtar-5.jpg" class="" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">gargi jane</h4>
+                    <h5 class="card-text fs-6">developer </h5>
+                    <p class="card-text">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim
+                      justo,ligula. Cum eget dolor Aenean rhoncus ut, fringilla vel, aliquet nec, imperdiet a, venenatis
+                      vitae, justo. Nullam dictum felis eu pede </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+  <section class="Latest-Blog my-5 pb-3">
+    <div class="container my-3">
+      <div class=" text-top  py-5">
+        <span>
+          <h2 class="fs-1">Latest Blog</h2>
+        </span>
+        <h5 class="fs-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor. incididunt ut
+          labore et dolore.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusm dipisicing elit, sed do eiusmod tempor.
+        </h5>
+      </div>
+      <div class="custom-container  my-5">
+        <div class="row">
+
+          <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-xs-12 mt-4">
+            <div class="card ">
+              <div class="img-rotate">
+                <img src="/images/11/gallery2-1-360x260.png" class="card-img-top" alt="...">
+              </div>
+              <div class=" row">
+                <div class="card-icon col-2">
+                  <div class="socilMedia-container__icon  ">
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-twitter custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-google-plus-g custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-pinterest-square custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="text-card col-10">
+                  <h5 class="card-title mt-3 custom-icon ">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                  <i class="far fa-user  px-2 py-2"></i> <span class="custom-icon fs-6">By Dtm_demo</span>
+                  <i class="far fa-calendar-alt  px-2 py-2"></i> <span class="custom-icon fs-6">19 Dec 2018</span>
+                  <div class="myProgress">
+                    <div class="myBar"></div>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo
+                    ligauala egets dssdolor....</p>
+                  <div class="d-flex hover-icon align-items-center "> <span>Read More </span> <i
+                      class="fas fa-long-arrow-alt-right fs-4  justify-content-center pt-1 px-2 "></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6  col-md-6 col-sm-12 col-xs-12 mt-4">
+            <div class="card ">
+              <div class="img-rotate">
+                <img src="/images/11/bg1-360x260.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class=" row">
+                <div class="card-icon col-2">
+                  <div class="socilMedia-container__icon  ">
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-twitter custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-google-plus-g custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-pinterest-square custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="text-card col-10">
+                  <h5 class="card-title mt-3 custom-icon ">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                  <i class="far fa-user  px-2 py-2"></i> <span class="custom-icon fs-6">By Dtm_demo</span>
+                  <i class="far fa-calendar-alt  px-2 py-2"></i> <span class="custom-icon fs-6">19 Dec 2018</span>
+                  <div class="myProgress">
+                    <div class="myBar"></div>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo
+                    ligauala egets dssdolor....</p>
+                  <div class="d-flex hover-icon align-items-center "> <span>Read More </span> <i
+                      class="fas fa-long-arrow-alt-right fs-4  justify-content-center pt-1 px-2 "></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6  col-md-6 m-md-auto mt-md-4 col-sm-12 col-xs-12 mt-4">
+            <div class="card ">
+              <div class="img-rotate">
+                <img src="/images/11/bg3-360x260.jpg" class="card-img-top" alt="...">
+              </div>
+              <div class=" row">
+                <div class="card-icon col-2">
+                  <div class="socilMedia-container__icon  ">
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-facebook-f custom-icon text-white  pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-twitter custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-google-plus-g custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-pinterest-square custom-icon text-white pe-xl-4 pe-lg-3 py-2"></i>
+                    </a>
+                    <a href="" id="social-media-icon">
+                      <i class="fab fa-instagram custom-icon text-white pe-xl-4 pe-lg-3 py-2 "></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="text-card col-10">
+                  <h5 class="card-title mt-3 custom-icon ">Four Ways To Cheer And Plan Your Self Up On Blue</h5>
+                  <i class="far fa-user  px-2 py-2"></i> <span class="custom-icon fs-6">By Dtm_demo</span>
+                  <i class="far fa-calendar-alt  px-2 py-2"></i> <span class="custom-icon fs-6">19 Dec 2018</span>
+                  <div class="myProgress">
+                    <div class="myBar"></div>
+                  </div>
+                  <p class="card-text">Lorem ipsum dolor sit amet, rcquisc adipiscing elit. Aenean socada commodo
+                    ligauala egets dssdolor....</p>
+                  <div class=" card-text hover-icon d-flex align-items-center "> <span>Read More </span> <i
+                      class="fas fa-long-arrow-alt-right fs-4  justify-content-center pt-1 px-2 "></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+  </section>
+  <section class="Meet-Our-Clients">
+    <div class="container mt-3">
+
+      <div class="row align-items-start">
+        <!-- <div class="col-xl-4 col-lg-6  col-md-6 m-md-auto mt-md-4 col-sm-12 col-xs-12 mt-4">  -->
+        <div class=" col-3">
+          <div class="img-clients">
+            <img src="/images/11/team5.png" class="card-img-clients" alt="...">
+          </div>
+        </div>
+        <div class="text-card col-9 row mt-3">
+          <div class=" text-top  ">
+            <span>
+              <h1 class="fs-1">Meet Our Clients </h1>
+            </span>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-4 mt-2">
+            <div class=" card-clients py-3">
+              <img src="/images/11/partner-g1.png" class="card-img-clients d-block" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-4 my-2">
+            <div class=" card-clients py-3">
+              <img src="/images/11/partner-g2.png" class="card-img-clients d-block" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-4 my-2">
+            <div class=" card-clients py-3">
+              <img src="/images/11/partner-g3.png" class="card-img-clients d-block" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-4 mt-2">
+            <div class=" card-clients py-3">
+              <img src="/images/11/partner-g4.png" class="card-img-clients d-block" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-4 mt-2">
+            <div class=" card-clients py-3">
+              <img src="/images/11/partner-g5.png" class="card-img-clients d-block" alt="...">
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-4 mt-2">
+            <div class=" card-clients py-3">
+              <img src="/images/11/partner2.png" class="card-img-clients d-block" alt="...">
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-6 col-sm-12 col-12 py-4">
-        <form class="row ">
-            <div class="col-sm-12 col-md-8 mt-3">
-            <input type="text"  class="form-control-plaintext bg-white" id="staticEmail2" placeholder=" input your mail">
-            </div>
-            <div class="col-sm-12 col-md-4">
-            <button type="submit" class="btn btn-primary px-5 mt-3">Subscribe</button>
-            </div>
-        </form>
+    </div>
+    </div>
+  </section>
+  <section class="custom-div">
+    <div class=" container w-75  ">
+      <div class=" row">
+        <div class="col-8">
+          <h2 class=" text-white">If You Like This Grate Work ?? For You Site...</h2>
+          <div class="icon"><i class="fas fa-phone-volume"></i></div>
+        </div>
+        <div class="col-4 align-items-end">
+          <button type="button" class="btn fs-3 px-5 bg-white btn-outline-primary "> purchase now </button>
+        </div>
       </div>
     </div>
   </section>
-
+  <footer class="pt-3">
+    <div class="container w-75 pt-5">
+      <div class="row ">
+        <div class="col-lg-4 col-sm-12 col-12">
+          <div class="title">
+          <h1> Contact Info </h1>
+          <div class="my-4"></div>
+          </div>
+          <h6 class="my-4"><i class="fas fa-map-marker-alt me-3"></i> 123 Street Market, Life Plaza, New York</h6>
+          <h6 class="my-4"><i class="fas fa-phone-volume me-3"></i> 987654321</h6>
+          <h6 class="my-4"><i class="far fa-envelope me-3"></i> mahmoudAdham63@hotmail.com</h6>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-12">
+          <div class="title">
+          <h1>Posts </h1>
+          <div class="my-4"></div>
+          </div>
+          <div class="row">
+             <div class="col-12 row">
+              <img src="images/11/gallery2-1-360x260.png" class="col-3" alt="">
+              <div class="col-9 ">
+                <h6 > Four ways to cheer and plan your self up on Blue</h6>
+                <div><i class="far fa-calendar-alt  px-2 py-2"></i> December 19, 2018</div>
+              </div>
+            </div>
+            <hr class="w-75 m-auto my-3 ">
+            <div class="col-12 row">
+              <img src="images/11/bg3.jpg" class="col-3" alt="">
+              <div class="col-9 ">
+                <h6 > Four ways to cheer and plan your self up on Blue</h6>
+                <div><i class="far fa-calendar-alt  px-2 py-2"></i> December 19, 2018</div>
+              </div>
+            </div>
+          </div>  
+        </div>
+        <div class="col-lg-4 col-sm-12 col-12">
+          <div class="title">
+          <h1> Popular </h1>
+          <div class="my-4"></div>
+          </div>
+            <div class="castom d-flex flex-wrap mt-2">
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Accountancy</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Affiliate</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Branding</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Branding</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Design</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Drupal</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Education</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Graphics</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Joomla</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Marketing</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Money</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Tally</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Transform</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Website</button>
+              <button type="button" class="btn btn-outline-primary my-2  mx-2 ">Wordpress</button>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="copy-right ">
+      <div class="text-primary">© 2021 Developed By mahmoud Adham</div>
+    </div>
+  </footer>
+  <div class="icon-backtob" id="topBtn"> <a href="#tob"><i class="fas fa-chevron-up"></i></a></div>
+  <script src="/js/script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <script src="js/owl.carousel.min.js"></script>
+
 </body>
 
 </html>

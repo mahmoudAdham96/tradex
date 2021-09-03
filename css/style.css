@@ -28,13 +28,11 @@ color: black !important;
 }
 nav{
   background-color: #fff;
-
-    /* padding: 1% 0; */
-    /* position: fixed; */
-    /* width: 100%; */
     position: sticky !important;
     top: 0;
     z-index: 99999;
+    box-shadow: 0 5px 8px 0 rgb(0,0,.1,.2);
+
 }
 .dropdown-submenu {
   position: relative;
@@ -66,7 +64,6 @@ ul li .nav-link:hover .dropstart {
   top: 40%!important;
   display: block !important;
   margin:0 !important;
-  /* transform: rotate(90deg); */
   left: 96% !important;
 
 }
@@ -109,12 +106,12 @@ ul li .nav-link:hover .dropstart {
 text-align: center !important;
 margin-top: 5%;
 }
-.our-Services-card .text-top ,.our-Work .text-top ,.our-Creative-Team .text-top ,.our-Pricing .text-top{
+.our-Services-card .text-top ,.our-Work .text-top ,.our-Creative-Team .text-top ,.our-Pricing .text-top ,.Testimonial .text-top , .Latest-Blog .text-top ,.Meet-Our-Clients .text-top{
   display:block;
 text-align: center !important;
 margin-top: 0% !important;
 }
- .our-Services-card .text-top h5 ,.our-Work .text-top , .our-Creative-Team .text-top h5 ,.our-Pricing .text-top h5{
+ .our-Services-card .text-top h5 ,.our-Work .text-top , .our-Creative-Team .text-top h5 ,.our-Pricing .text-top h5 ,.Testimonial .text-top h5 ,.Latest-Blog .text-top ,.Meet-Our-Clients .text-top{
 text-align: center !important;
 padding: 0 21%;
 font-size: .75rem;
@@ -131,7 +128,7 @@ font-size: .75rem;
   position: absolute;
   top: 55%;
   width: 60px;
-  height: 1px;
+  height: 2px;
   background: blue;
 }
 .text-top h1:before,
@@ -140,7 +137,7 @@ font-size: .75rem;
   position: absolute;
   top: 42%;
   width: 40px;
-  height: 2px;
+  height: 1px;
   background: blue;
 }
 
@@ -398,11 +395,7 @@ background-color: #f8f9fa;
   border-bottom: 2px solid black;
   z-index: 221;
 }
-.our-Creative-Team .main-img:hover  .socilMedia-container__icon {
-  
-  transition: 5s ease !important;
- 
-}
+
 .our-Creative-Team .overlay .text{
   text-align: center;
 }
@@ -437,7 +430,7 @@ color: blue;
     margin: auto;
     
 }
-.our-Creative-Team .socilMedia-container__icon{
+.our-Creative-Team .socilMedia-container__icon  {
   background-color: blue;
   width: 85%;
   margin: auto;
@@ -445,7 +438,16 @@ color: blue;
   border-start-start-radius: 5px;
   border-top-right-radius: 5px;
 }
-.our-Creative-Team .socilMedia-container__icon a{
+ .Latest-Blog .socilMedia-container__icon {
+  width: 100%;
+  margin: auto;
+  text-decoration:none;
+  background-color: black;
+  height: 100%;
+  padding: 12px 10px;
+  transition: .6s;
+}
+.our-Creative-Team .socilMedia-container__icon a ,.Latest-Blog .socilMedia-container__icon a{
 
   text-decoration:none;
 }
@@ -507,6 +509,191 @@ color:blue;
 .Subscribe-now button {
   border-radius: 20px;
 }
+.Subscribe-now input {
+  outline: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* ------------------- owl-carousel --------------- */
+.Testimonial .owl-carousel .owl-nav  {
+  font-size: 20px !important;
+  text-align: center;
+  color: white;
+  height: 30px !important;
+
+}
+.owl-carousel .owl-nav .owl-prev {
+  position: relative;
+  background-color: blue !important;
+  margin-right: 5px;
+  width: 40px  ;
+  height: 70%;
+  margin-top: 0 !important;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px; 
+}
+.owl-carousel .owl-nav .owl-prev span {
+  font-size: 35px !important;
+  position: absolute;
+  top: -21px;
+  right: 16px;
+}
+.owl-carousel .owl-nav .owl-next {
+  position: relative;
+  background-color: blue !important;
+  margin-left: 5px;
+  width: 40px  ;
+  height: 70%;
+  margin-top: 0 !important;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px; 
+
+}
+.owl-carousel .owl-nav .owl-next span {
+  font-size: 35px !important;
+  position: absolute;
+  top: -21px;
+  left: 16px;
+
+}
+.Testimonial .owl-carousel img {
+  height: 70%;
+  width: 70%;
+  margin: auto;
+margin-top: 15%;
+}
+.Testimonial .owl-carousel h5{
+  color: blue;
+  
+}
+/* ---------------- */
+.Latest-Blog{
+  background-color: #f9f9f9;
+}
+.Latest-Blog .myProgress {
+  width: 90%;
+  background-color: #ddd;
+  margin: 20px 0;
+}
+
+.Latest-Blog .myBar {
+  width: 20%;
+  height: 2px;
+  background-color: blue;
+  transition: .6s;
+
+}
+
+.Latest-Blog .socilMedia-container__icon  a i{
+  margin: 8px 3px !important;
+  font-size: 1.3rem;
+}
+.Latest-Blog .socilMedia-container__icon  a i:hover{
+  color: rgb(209, 206, 206) !important;
+}
+.Latest-Blog .custom-container  .card .img-rotate{
+ overflow: hidden;
+ max-width: 100%;
+ 
+}
+.Latest-Blog .custom-container .card img{
+ transition: .6s;
+}
+.Latest-Blog .custom-container  .card:hover  img {
+  transform: scale(1.1) rotate(-2deg);
+  width: 100%;
+  height:  100%;
+  background-size: cover;
+}
+.Latest-Blog .custom-container  .card:hover  .myBar {
+  width: 100%;
+  }
+.Latest-Blog .custom-container  .card:hover  .socilMedia-container__icon {
+ 
+  background-color:blue;
+  
+}
+.Latest-Blog .custom-container  .text-card .custom-icon:hover {
+ 
+  color:blue;
+  
+}
+.Latest-Blog .custom-container  .text-card  div i{
+ 
+  transition: .6s;
+}
+.Latest-Blog .custom-container  .text-card  .hover-icon:hover i{
+ 
+margin-left: 3%;  
+}
+.Latest-Blog .container  , .Meet-Our-Clients .container{
+ 
+width: 80%;
+}
+/* --------------------Meet Our Clients--------------- */
+
+.Meet-Our-Clients .card-clients  {
+  border: 1px solid black;
+}
+.Meet-Our-Clients .text-card div img {
+width: 80%;
+margin: auto;
+height: 100px;
+}
+/* ------------------------------------------- */
+
+.custom-div{
+  position: relative;
+  background-color: blue;
+  padding: 50px 0;
+  
+}
+.custom-div div .icon i{
+  color: #fff9f37a;
+  position: absolute;
+  font-size: 65px;
+  transform: scale(1.3) rotate(310deg);
+  top: 40px;
+
+}
+
+.custom-div h2{
+ position: absolute;
+ top: 53px;
+ z-index: 50;
+}
+.custom-div button{
+  border-radius: 30px;
+  
+}
+.custom-div button:hover{
+  color: blue;
+}
+/* -------------- footer */
+
+footer{
+  background-color: #1a1a1a;
+  color: white;
+}
+footer .title div{
+  border-bottom: 2px solid blue;
+  width: 15%;
+
+}
+footer .castom button{
+  border-radius: 30px;
+  background-color: #eee;
+  color: #000;
+  padding: 5px 6px !important;
+}
+footer .copy-right {
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 2% 0 2%;
+  box-shadow: 0 0 18px 0 rgb(0 0 0 / 50%);
+  margin-top: 10%;
+}
 
 
 
@@ -526,6 +713,24 @@ color:blue;
 
 
 
+.icon-backtob{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color:blue;
+  text-align: center;
+  position: fixed;
+  bottom: 5%;
+  right: 4%;
+  padding-top: 5px;
+  display: none;
+}
+.icon-backtob a{
+  margin-top: 5px;
+  font-size: 25px;
+  color: aliceblue;
+  
+}
 
 /* -----------------------------------------media -------------------------- */
 @media screen and (max-width: 992px) {
@@ -613,3 +818,9 @@ color:blue;
   }
 }
 
+/* --------------------------- contact --------------- */
+
+.contact img {
+  background-size: 100% 150%;
+  height: 400px;
+}
