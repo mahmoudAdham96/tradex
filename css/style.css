@@ -837,7 +837,7 @@ footer .copy-right {
  form div #usernameValid , #emailValid ,#passValid{
   color: red;
 }
-.overlay
+.sect-contact .overlay
 {
   background-color: rgba(0, 0, 0, 0.507) ;
   width: 100%;
@@ -846,7 +846,7 @@ footer .copy-right {
   left: 0;
   position: absolute;
 }
-.overlay a
+.sect-contact .overlay a
 {
   width: 7%;
   margin:auto;
