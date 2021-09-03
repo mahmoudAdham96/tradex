@@ -820,7 +820,36 @@ footer .copy-right {
 
 /* --------------------------- contact --------------- */
 
-.contact img {
+.sect-contact img {
   background-size: 100% 150%;
-  height: 400px;
+  height: 450px;
 }
+.sect-contact  h1 {
+  font-size: 60px;
+  left: 42%;
+  top: 40%;
+
+}
+
+.Contact-Info .container div {
+  text-align: center;
+}
+ form div #usernameValid , #emailValid ,#passValid{
+  color: red;
+}
+.overlay
+{
+  background-color: rgba(0, 0, 0, 0.507) ;
+  width: 100%;
+  height: 20%;
+  top: 80%;
+  left: 0;
+  position: absolute;
+}
+.overlay a
+{
+  width: 7%;
+  margin:auto;
+  display: block;
+}
+
