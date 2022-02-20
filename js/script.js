@@ -82,12 +82,12 @@ function checkEmail(inp){
     if(emailReg.test(inputValue) == false) showError(inp , 'email not valid')
     else removeError(inp) 
 }
- function checkPassword (inp){
+function checkPassword (inp){
     var passReg = /^[A-Za-z]\w{7,14}$/
-     var passvalue = inp.value
-     if(passReg.test(passvalue) == false ) showError(inp,'Input Password and Submit [7 to 15 characters which contain only characters, numeric digits, underscore and first character must be a letter')
-     else removeError(inp, '') 
- }
+        var passvalue = inp.value
+        if(passReg.test(passvalue) == false ) showError(inp,'Input Password and Submit [7 to 15 characters which contain only characters, numeric digits, underscore and first character must be a letter')
+        else removeError(inp, '') 
+}
 
 function showError(element , msg){
     element.nextElementSibling.innerText = msg
@@ -96,3 +96,20 @@ function showError(element , msg){
 function removeError(element){
     element.nextElementSibling.innerText = ''
 }
+
+////////////////////////////////////////////////////////////////////////////
+
+let zero = 0;
+let counter = 3;
+
+let my =["Ahmed","Mazero","Elham","Osama","Gamal","Ameer"];
+
+document.write(my.slice());
+
+
+
+
+
+
+
+
